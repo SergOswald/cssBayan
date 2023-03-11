@@ -1,1 +1,128 @@
-1
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine; 
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border: 1px blueviolet;
+    border-style: dotted;
+    border-radius: 20px;
+}
+
+main:hover {
+    cursor: pointer;
+
+
+}
+
+h1 {
+  font-size: 70px ;
+  margin: 5px 5px 5px 10px ;
+
+}
+
+h2 {
+  font-size: 50px ;
+  color:brown ;
+  margin: 5px 5px 5px 10px ;
+  padding: 0;
+  
+  }
+
+main:hover  .headerH2color  {
+    color:green ;
+  }
+
+.closeWind1, .closeWind2, .closeWind3, .closeWind4, .closeWind5 {
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px 5px 5px ;
+    
+   
+}
+
+.closeWind2, .closeWind3, .closeWind4, .closeWind5 {
+    display: none;
+
+}
+
+main:hover .closeWind2  {
+    display: block;
+    
+}
+
+main:hover .closeWind3  {
+    display: block;
+    
+}
+
+main:hover .closeWind4  {
+    display: block;
+    
+}
+
+main:hover .closeWind5  {
+    display: block;
+    
+}
+
+.headerH2 {
+    display: flex ; 
+    align-items: center ;
+    justify-content: space-between ;
+}
+
+.fotoUroda1 {
+    margin: 0 auto;
+    display: block ; 
+ 
+    height: 50vh;
+
+}
+
+.fotoUroda2 {
+    margin: 0 auto;
+    display: block ; 
+ 
+    height: 50vh;
+    display: none;
+}
+
+.fotoUroda3 {
+    margin: 0 auto;
+    display: block ; 
+ 
+    height: 50vh;
+    display: none;
+}
+
+.fotoUroda4 {
+    margin: 0 auto;
+    display: block ; 
+ 
+    height: 50vh;
+    display: none;
+}
+
+.fotoUroda5 {
+    margin: 0 auto;
+    display: block ; 
+ 
+    height: 50vh;
+    display: none;
+}
+
+hr {
+    margin: 0px 10px 0px 10px ;
+
+}
