@@ -20,10 +20,6 @@ body {
     border-radius: 20px;
 }
 
-main:hover {
-    cursor: pointer;
-}
-
 h1 {
   font-size: 70px ;
   margin: 5px 5px 5px 10px ;
@@ -40,7 +36,9 @@ h1 {
   padding: 0;  
 }
 
-
+.headerH2color_4  {
+    color:green ;
+}
 
 .headerH2_1, 
 .headerH2_2, 
@@ -52,25 +50,6 @@ h1 {
     justify-content: space-between ;
 }
 
-
-
-main:hover  .headerH2color_2  {
-    color:green ;
-}
-
-main:hover  .headerH2color_3  {
-    color:green ;
-}
-
-main:hover  .headerH2color_4  {
-    color:green ;
-}
-
-main:hover  .headerH2color_5  {
-    color:green ;
-}
-
-
 .closeWind1, .openWind1, 
 .closeWind2, .openWind2, 
 .closeWind3, .openWind3, 
@@ -81,7 +60,6 @@ main:hover  .headerH2color_5  {
     margin: 5px 10px 5px 5px ;
 }
 
-
 .closeWind1, .openWind1, 
 .closeWind2, .openWind2, 
 .closeWind3, .openWind3, 
@@ -90,31 +68,11 @@ main:hover  .headerH2color_5  {
     display: none;
 }
 
-main:hover .closeWind1  {
-    display: block;    
-}
-
-main:hover .openWind2  {
-    display: block;    
-}
-
-main:hover .openWind3  {
-    display: block;    
-}
-
-main:hover .openWind4  {
-    display: block;    
-}
-
-main:hover .openWind5 {
-    display: block;    
-}
-
-
 .fotoUroda1 {
     margin: 0 auto;
-    display: block ; 
-    height: 50vh;
+    height: 0vh; 
+    visibility: hidden;
+    display: block;
 }
 
 .fotoUroda2 {
@@ -133,9 +91,8 @@ main:hover .openWind5 {
 
 .fotoUroda4 {
     margin: 0 auto;
-    height: 0vh; 
-    visibility: hidden;
-    display: block;
+    display: block ; 
+    height: 50vh;
 }
 
 .fotoUroda5 {
@@ -145,9 +102,96 @@ main:hover .openWind5 {
     display: block;
 }
 
+main:hover {
+    cursor: pointer;
+}
+
+main:hover  .headerH2color_1  {
+    color:green ;
+}
+
+main:hover  .headerH2color_2  {
+    color:green ;
+}
+
+main:hover  .headerH2color_3  {
+    color:green ;
+}
+
+/* main:hover  .headerH2color_4  {
+    color:green ;
+} */
+
+main:hover  .headerH2color_5  {
+    color:green ;
+}
+
+main:hover .closeWind1  {
+    display: none;    
+}
+
+main:hover .closeWind2 {
+    display: none;    
+}
+
+main:hover .closeWind3  {
+    display: none;    
+}
+
+main:hover .closeWind4  {
+    display: block;    
+}
+
+main:hover .closeWind5  {
+    display: none;    
+}
+
+main:hover .openWind1  {
+    display: block;    
+}
+
+main:hover .openWind2  {
+    display: block;    
+}
+
+main:hover .openWind3  {
+    display: block;    
+}
+
+main:hover .openWind4  {
+    display: none;    
+}
+
+main:hover .openWind5 {
+    display: block;    
+}
+
+.headerH2_1:hover + .fotoUroda1 {
+    visibility: visible;
+    height: 50vh; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.headerH2_1:hover .openWind1 {
+    display: none;   
+}
+
+.headerH2_1:hover .closeWind1 {
+    display: block;   
+}
+
 .headerH2_2:hover + .fotoUroda2 {
     visibility: visible;
     height: 50vh; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .headerH2_2:hover .openWind2 {
@@ -161,6 +205,11 @@ main:hover .openWind5 {
 .headerH2_3:hover + .fotoUroda3 {
     visibility: visible;
     height: 50vh; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .headerH2_3:hover .openWind3 {
@@ -174,6 +223,11 @@ main:hover .openWind5 {
 .headerH2_4:hover + .fotoUroda4 {
     visibility: visible;
     height: 50vh; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .headerH2_4:hover .openWind4 {
@@ -187,6 +241,11 @@ main:hover .openWind5 {
 .headerH2_5:hover + .fotoUroda5 {
     visibility: visible;
     height: 50vh; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .headerH2_5:hover .openWind5 {
