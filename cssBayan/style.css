@@ -50,6 +50,16 @@ h1 {
     justify-content: space-between ;
 }
 
+.section_1, 
+.section_2, 
+.section_3, 
+.section_4, 
+.section_5  {
+    display: block ; 
+    align-items: center ;
+    justify-content: space-between ;
+}
+
 .closeWind1, .openWind1, 
 .closeWind2, .openWind2, 
 .closeWind3, .openWind3, 
@@ -101,6 +111,12 @@ h1 {
     visibility: hidden;
     display: block;
 }
+
+hr {
+    margin: 0px 10px 0px 10px ;
+}
+
+/* Animation */
 
 main:hover {
     cursor: pointer;
@@ -166,7 +182,7 @@ main:hover .openWind5 {
     display: block;    
 }
 
-.headerH2_1:hover + .fotoUroda1 {
+.section_1:hover .fotoUroda1 {
     visibility: visible;
     height: 50vh; 
     -webkit-transition: all 1s ease;
@@ -176,15 +192,15 @@ main:hover .openWind5 {
     transition: all 1s ease;
 }
 
-.headerH2_1:hover .openWind1 {
+.section_1:hover .openWind1 {
     display: none;   
 }
 
-.headerH2_1:hover .closeWind1 {
+.section_1:hover .closeWind1 {
     display: block;   
 }
 
-.headerH2_2:hover + .fotoUroda2 {
+.section_2:hover .fotoUroda2 {
     visibility: visible;
     height: 50vh; 
     -webkit-transition: all 1s ease;
@@ -194,15 +210,15 @@ main:hover .openWind5 {
     transition: all 1s ease;
 }
 
-.headerH2_2:hover .openWind2 {
+.section_2:hover .openWind2 {
     display: none;   
 }
 
-.headerH2_2:hover .closeWind2 {
+.section_2:hover .closeWind2 {
     display: block;   
 }
 
-.headerH2_3:hover + .fotoUroda3 {
+.section_3:hover .fotoUroda3 {
     visibility: visible;
     height: 50vh; 
     -webkit-transition: all 1s ease;
@@ -212,15 +228,15 @@ main:hover .openWind5 {
     transition: all 1s ease;
 }
 
-.headerH2_3:hover .openWind3 {
+.section_3:hover .openWind3 {
     display: none;   
 }
 
-.headerH2_3:hover .closeWind3 {
+.section_3:hover .closeWind3 {
     display: block;   
 }
 
-.headerH2_4:hover + .fotoUroda4 {
+.section_4:hover + .fotoUroda4 {
     visibility: visible;
     height: 50vh; 
     -webkit-transition: all 1s ease;
@@ -230,15 +246,15 @@ main:hover .openWind5 {
     transition: all 1s ease;
 }
 
-.headerH2_4:hover .openWind4 {
+.section_4:hover .openWind4 {
     display: none;   
 }
 
-.headerH2_4:hover .closeWind4 {
+.section_4:hover .closeWind4 {
     display: block;   
 }
 
-.headerH2_5:hover + .fotoUroda5 {
+.section_5:hover .fotoUroda5 {
     visibility: visible;
     height: 50vh; 
     -webkit-transition: all 1s ease;
@@ -248,14 +264,40 @@ main:hover .openWind5 {
     transition: all 1s ease;
 }
 
-.headerH2_5:hover .openWind5 {
+.section_5:hover .openWind5 {
     display: none;   
 }
 
-.headerH2_5:hover .closeWind5 {
+.section_5:hover .closeWind5 {
     display: block;   
 }
 
-hr {
-    margin: 0px 10px 0px 10px ;
+
+.fotoClick_1:hover {
+    opacity: 0.5 ;
+    cursor: grabbing;
+}
+
+.fotoClick_1:hover main .headerH2color_1 {
+    color:brown;
+}
+
+.fotoClick_2:hover {
+    opacity: 0.5 ;
+    cursor: grabbing;
+}
+
+.fotoClick_3:hover {
+    opacity: 0.5 ;
+    cursor: grabbing;
+}
+
+.fotoClick_4:hover {
+    opacity: 0.5 ;
+    cursor: grabbing;
+}
+
+.fotoClick_5:hover {
+    opacity: 0.5 ;
+    cursor: grabbing;
 }
