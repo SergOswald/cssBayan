@@ -273,31 +273,35 @@ main:hover .openWind5 {
 }
 
 
-.fotoClick_1:hover {
+.fotoClick_1:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
 
-.fotoClick_1:hover main .headerH2color_1 {
+.fotoClick_1:active .headerH2color_1 {
     color:brown;
 }
 
-.fotoClick_2:hover {
+.fotoClick_2:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
 
-.fotoClick_3:hover {
+.fotoClick_3:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
 
-.fotoClick_4:hover {
+.fotoClick_4:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
 
-.fotoClick_5:hover {
+.fotoClick_4:active .headerH2color_4 {
+    color:brown;
+}
+
+.fotoClick_5:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
