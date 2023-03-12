@@ -7,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: aquamarine; 
+    overflow:hidden;
 }
 
 .container {
@@ -21,108 +22,181 @@ body {
 
 main:hover {
     cursor: pointer;
-
-
 }
 
 h1 {
   font-size: 70px ;
   margin: 5px 5px 5px 10px ;
-
 }
 
-h2 {
+.headerH2color_1, 
+.headerH2color_2, 
+.headerH2color_3, 
+.headerH2color_4, 
+.headerH2color_5 {
   font-size: 50px ;
   color:brown ;
   margin: 5px 5px 5px 10px ;
-  padding: 0;
-  
-  }
-
-main:hover  .headerH2color  {
-    color:green ;
-  }
-
-.closeWind1, .closeWind2, .closeWind3, .closeWind4, .closeWind5 {
-    width: 50px;
-    height: 50px;
-    margin: 5px 10px 5px 5px ;
-    
-   
+  padding: 0;  
 }
 
-.closeWind2, .closeWind3, .closeWind4, .closeWind5 {
-    display: none;
 
-}
 
-main:hover .closeWind2  {
-    display: block;
-    
-}
-
-main:hover .closeWind3  {
-    display: block;
-    
-}
-
-main:hover .closeWind4  {
-    display: block;
-    
-}
-
-main:hover .closeWind5  {
-    display: block;
-    
-}
-
-.headerH2 {
+.headerH2_1, 
+.headerH2_2, 
+.headerH2_3, 
+.headerH2_4, 
+.headerH2_5 {
     display: flex ; 
     align-items: center ;
     justify-content: space-between ;
 }
 
+
+
+main:hover  .headerH2color_2  {
+    color:green ;
+}
+
+main:hover  .headerH2color_3  {
+    color:green ;
+}
+
+main:hover  .headerH2color_4  {
+    color:green ;
+}
+
+main:hover  .headerH2color_5  {
+    color:green ;
+}
+
+
+.closeWind1, .openWind1, 
+.closeWind2, .openWind2, 
+.closeWind3, .openWind3, 
+.closeWind4, .openWind4, 
+.closeWind5, .openWind5 {
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px 5px 5px ;
+}
+
+
+.closeWind1, .openWind1, 
+.closeWind2, .openWind2, 
+.closeWind3, .openWind3, 
+.closeWind4, .openWind4, 
+.closeWind5, .openWind5 {
+    display: none;
+}
+
+main:hover .closeWind1  {
+    display: block;    
+}
+
+main:hover .openWind2  {
+    display: block;    
+}
+
+main:hover .openWind3  {
+    display: block;    
+}
+
+main:hover .openWind4  {
+    display: block;    
+}
+
+main:hover .openWind5 {
+    display: block;    
+}
+
+
 .fotoUroda1 {
     margin: 0 auto;
     display: block ; 
- 
     height: 50vh;
-
 }
 
 .fotoUroda2 {
     margin: 0 auto;
-    display: block ; 
- 
-    height: 50vh;
-    display: none;
+    height: 0vh; 
+    visibility: hidden;
+    display: block;
 }
 
 .fotoUroda3 {
     margin: 0 auto;
-    display: block ; 
- 
-    height: 50vh;
-    display: none;
+    height: 0vh; 
+    visibility: hidden;
+    display: block;
 }
 
 .fotoUroda4 {
     margin: 0 auto;
-    display: block ; 
- 
-    height: 50vh;
-    display: none;
+    height: 0vh; 
+    visibility: hidden;
+    display: block;
 }
 
 .fotoUroda5 {
     margin: 0 auto;
-    display: block ; 
- 
-    height: 50vh;
-    display: none;
+    height: 0vh; 
+    visibility: hidden;
+    display: block;
+}
+
+.headerH2_2:hover + .fotoUroda2 {
+    visibility: visible;
+    height: 50vh; 
+}
+
+.headerH2_2:hover .openWind2 {
+    display: none;   
+}
+
+.headerH2_2:hover .closeWind2 {
+    display: block;   
+}
+
+.headerH2_3:hover + .fotoUroda3 {
+    visibility: visible;
+    height: 50vh; 
+}
+
+.headerH2_3:hover .openWind3 {
+    display: none;   
+}
+
+.headerH2_3:hover .closeWind3 {
+    display: block;   
+}
+
+.headerH2_4:hover + .fotoUroda4 {
+    visibility: visible;
+    height: 50vh; 
+}
+
+.headerH2_4:hover .openWind4 {
+    display: none;   
+}
+
+.headerH2_4:hover .closeWind4 {
+    display: block;   
+}
+
+.headerH2_5:hover + .fotoUroda5 {
+    visibility: visible;
+    height: 50vh; 
+}
+
+.headerH2_5:hover .openWind5 {
+    display: none;   
+}
+
+.headerH2_5:hover .closeWind5 {
+    display: block;   
 }
 
 hr {
     margin: 0px 10px 0px 10px ;
-
 }
