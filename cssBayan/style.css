@@ -32,7 +32,7 @@ body {
     .headerH2color_3, 
     .headerH2color_4, 
     .headerH2color_5 {
-    font-size: 50px ;
+    font-size: 4em ;
     color:brown ;
     margin: 5px 5px 5px 10px ;
     padding: 0;  
@@ -67,8 +67,8 @@ body {
     .closeWind3, .openWind3, 
     .closeWind4, .openWind4, 
     .closeWind5, .openWind5 {
-        width: 50px;
-        height: 50px;
+        width: 4em;
+        height: 4em;
         margin: 5px 10px 5px 5px ;
     }
 
@@ -334,7 +334,7 @@ body {
     }
 
     h1 {
-    font-size: 70px ;
+    font-size: 55px ;
     margin: 5px 5px 5px 10px ;
     }
 
@@ -343,7 +343,7 @@ body {
     .headerH2color_3, 
     .headerH2color_4, 
     .headerH2color_5 {
-    font-size: 50px ;
+    font-size: 2.5em ;
     color:brown ;
     margin: 5px 5px 5px 10px ;
     padding: 0;  
@@ -378,8 +378,8 @@ body {
     .closeWind3, .openWind3, 
     .closeWind4, .openWind4, 
     .closeWind5, .openWind5 {
-        width: 50px;
-        height: 50px;
+        width: 2.5em;
+        height: 2.5em;
         margin: 5px 10px 5px 5px ;
     }
 
@@ -468,7 +468,7 @@ body {
     }
 
     main:hover .closeWind4  {
-        display: block;    
+        display: none;     
     }
 
     main:hover .closeWind5  {
@@ -488,7 +488,7 @@ body {
     }
 
     main:hover .openWind4  {
-        display: none;    
+        display: block;     
     }
 
     main:hover .openWind5 {
@@ -637,7 +637,7 @@ body {
     .container {
         display: block;
         margin: 0 auto;
-        max-width: 1440px;
+        /* max-width: 1440px; */
         box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
         border: 1px blueviolet;
         border-style: dotted;
@@ -645,7 +645,7 @@ body {
     }
 
     h1 {
-    font-size: 70px ;
+    font-size: 20px ;
     margin: 5px 5px 5px 10px ;
     }
 
@@ -654,7 +654,7 @@ body {
     .headerH2color_3, 
     .headerH2color_4, 
     .headerH2color_5 {
-    font-size: 50px ;
+    font-size: 1em ;
     color:brown ;
     margin: 5px 5px 5px 10px ;
     padding: 0;  
@@ -689,8 +689,8 @@ body {
     .closeWind3, .openWind3, 
     .closeWind4, .openWind4, 
     .closeWind5, .openWind5 {
-        width: 50px;
-        height: 50px;
+        width: 1em;
+        height: 1em;
         margin: 5px 10px 5px 5px ;
     }
 
@@ -780,7 +780,7 @@ body {
     }
 
     main:hover .closeWind4  {
-        display: block;    
+        display: none;    
     }
 
     main:hover .closeWind5  {
@@ -800,7 +800,7 @@ body {
     }
 
     main:hover .openWind4  {
-        display: none;    
+        display:  block;      
     }
 
     main:hover .openWind5 {
