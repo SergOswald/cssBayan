@@ -36,7 +36,7 @@ h1 {
   padding: 0;  
 }
 
-.headerH2color_4  {
+.headerH2color_1  {
     color:green ;
 }
 
@@ -80,9 +80,8 @@ h1 {
 
 .fotoUroda1 {
     margin: 0 auto;
-    height: 0vh; 
-    visibility: hidden;
-    display: block;
+    display: block ; 
+    height: 50vh;
 }
 
 .fotoUroda2 {
@@ -101,8 +100,9 @@ h1 {
 
 .fotoUroda4 {
     margin: 0 auto;
-    display: block ; 
-    height: 50vh;
+    height: 0vh; 
+    visibility: hidden;
+    display: block;
 }
 
 .fotoUroda5 {
@@ -122,9 +122,9 @@ main:hover {
     cursor: pointer;
 }
 
-main:hover  .headerH2color_1  {
+/* main:hover  .headerH2color_1  {
     color:green ;
-}
+} */
 
 main:hover  .headerH2color_2  {
     color:green ;
@@ -134,9 +134,9 @@ main:hover  .headerH2color_3  {
     color:green ;
 }
 
-/* main:hover  .headerH2color_4  {
+main:hover  .headerH2color_4  {
     color:green ;
-} */
+} 
 
 main:hover  .headerH2color_5  {
     color:green ;
@@ -272,36 +272,47 @@ main:hover .openWind5 {
     display: block;   
 }
 
-
-.fotoClick_1:active {
+.section_1:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
 
-.fotoClick_1:active .headerH2color_1 {
+.section_1:active .headerH2color_1 {
     color:brown;
 }
 
-.fotoClick_2:active {
+.section_2:active {
     opacity: 0.5 ;
     cursor: grabbing;
 }
 
-.fotoClick_3:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
-
-.fotoClick_4:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
-
-.fotoClick_4:active .headerH2color_4 {
+.section_2:active .headerH2color_2 {
     color:brown;
 }
 
-.fotoClick_5:active {
+.section_3:active {
     opacity: 0.5 ;
     cursor: grabbing;
+}
+
+.section_3:active .headerH2color_3 {
+    color:brown;
+}
+
+.section_4:active {
+    opacity: 0.5 ;
+    cursor: grabbing;
+}
+
+.section_4:active .headerH2color_4 {
+    color:brown;
+}
+
+.section_5:active {
+    opacity: 0.5 ;
+    cursor: grabbing;
+}
+
+.section_5:active .headerH2color_5 {
+    color:brown;
 }
