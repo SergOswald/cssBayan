@@ -10,309 +10,937 @@ body {
     overflow:hidden;
 }
 
-.container {
-    display: block;
-    margin: 0 auto;
-    max-width: 1440px;
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    border: 1px blueviolet;
-    border-style: dotted;
-    border-radius: 20px;
+@media only screen and (min-width: 1920px) {
+
+    .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        border: 1px blueviolet;
+        border-style: dotted;
+        border-radius: 20px;
+    }
+
+    h1 {
+    font-size: 70px ;
+    margin: 5px 5px 5px 10px ;
+    }
+
+    .headerH2color_1, 
+    .headerH2color_2, 
+    .headerH2color_3, 
+    .headerH2color_4, 
+    .headerH2color_5 {
+    font-size: 50px ;
+    color:brown ;
+    margin: 5px 5px 5px 10px ;
+    padding: 0;  
+    }
+
+    .headerH2color_1  {
+        color:green ;
+    }
+
+    .headerH2_1, 
+    .headerH2_2, 
+    .headerH2_3, 
+    .headerH2_4, 
+    .headerH2_5 {
+        display: flex ; 
+        align-items: center ;
+        justify-content: space-between ;
+    }
+
+    .section_1, 
+    .section_2, 
+    .section_3, 
+    .section_4, 
+    .section_5  {
+        display: block ; 
+        align-items: center ;
+        justify-content: space-between ;
+    }
+
+    .closeWind1, .openWind1, 
+    .closeWind2, .openWind2, 
+    .closeWind3, .openWind3, 
+    .closeWind4, .openWind4, 
+    .closeWind5, .openWind5 {
+        width: 50px;
+        height: 50px;
+        margin: 5px 10px 5px 5px ;
+    }
+
+    .closeWind1, .openWind1, 
+    .closeWind2, .openWind2, 
+    .closeWind3, .openWind3, 
+    .closeWind4, .openWind4, 
+    .closeWind5, .openWind5 {
+        display: none;
+    }
+
+    .fotoUroda1 {
+        margin: 0 auto;
+        display: block ; 
+        height: 50vh;
+    }
+
+    .fotoUroda2 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    .fotoUroda3 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    .fotoUroda4 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    .fotoUroda5 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    hr {
+        margin: 0px 10px 0px 10px ;
+    }
+
+    /* Animation */
+
+    main:hover {
+        cursor: pointer;
+    }
+
+    /* main:hover  .headerH2color_1  {
+        color:green ;
+    } */
+
+    main:hover  .headerH2color_2  {
+        color:green ;
+    }
+
+    main:hover  .headerH2color_3  {
+        color:green ;
+    }
+
+    main:hover  .headerH2color_4  {
+        color:green ;
+    } 
+
+    main:hover  .headerH2color_5  {
+        color:green ;
+    }
+
+    main:hover .closeWind1  {
+        display: none;    
+    }
+
+    main:hover .closeWind2 {
+        display: none;    
+    }
+
+    main:hover .closeWind3  {
+        display: none;    
+    }
+
+    main:hover .closeWind4  {
+        display: block;    
+    }
+
+    main:hover .closeWind5  {
+        display: none;    
+    }
+
+    main:hover .openWind1  {
+        display: block;    
+    }
+
+    main:hover .openWind2  {
+        display: block;    
+    }
+
+    main:hover .openWind3  {
+        display: block;    
+    }
+
+    main:hover .openWind4  {
+        display: none;    
+    }
+
+    main:hover .openWind5 {
+        display: block;    
+    }
+
+    .section_1:hover .fotoUroda1 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_1:hover .openWind1 {
+        display: none;   
+    }
+
+    .section_1:hover .closeWind1 {
+        display: block;   
+    }
+
+    .section_2:hover .fotoUroda2 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_2:hover .openWind2 {
+        display: none;   
+    }
+
+    .section_2:hover .closeWind2 {
+        display: block;   
+    }
+
+    .section_3:hover .fotoUroda3 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_3:hover .openWind3 {
+        display: none;   
+    }
+
+    .section_3:hover .closeWind3 {
+        display: block;   
+    }
+
+    .section_4:hover .fotoUroda4 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_4:hover .openWind4 {
+        display: none;   
+    }
+
+    .section_4:hover .closeWind4 {
+        display: block;   
+    }
+
+    .section_5:hover .fotoUroda5 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_5:hover .openWind5 {
+        display: none;   
+    }
+
+    .section_5:hover .closeWind5 {
+        display: block;   
+    }
+
+    .section_1:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_1:active .headerH2color_1 {
+        color:brown;
+    }
+
+    .section_2:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_2:active .headerH2color_2 {
+        color:brown;
+    }
+
+    .section_3:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_3:active .headerH2color_3 {
+        color:brown;
+    }
+
+    .section_4:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_4:active .headerH2color_4 {
+        color:brown;
+    }
+
+    .section_5:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_5:active .headerH2color_5 {
+        color:brown;
+    }
+
 }
 
-h1 {
-  font-size: 70px ;
-  margin: 5px 5px 5px 10px ;
+@media only screen and (min-width: 820px) and (max-width: 1919.9px) {
+
+    .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 1440px;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        border: 1px blueviolet;
+        border-style: dotted;
+        border-radius: 20px;
+    }
+
+    h1 {
+    font-size: 70px ;
+    margin: 5px 5px 5px 10px ;
+    }
+
+    .headerH2color_1, 
+    .headerH2color_2, 
+    .headerH2color_3, 
+    .headerH2color_4, 
+    .headerH2color_5 {
+    font-size: 50px ;
+    color:brown ;
+    margin: 5px 5px 5px 10px ;
+    padding: 0;  
+    }
+
+    .headerH2color_1  {
+        color:green ;
+    }
+
+    .headerH2_1, 
+    .headerH2_2, 
+    .headerH2_3, 
+    .headerH2_4, 
+    .headerH2_5 {
+        display: flex ; 
+        align-items: center ;
+        justify-content: space-between ;
+    }
+
+    .section_1, 
+    .section_2, 
+    .section_3, 
+    .section_4, 
+    .section_5  {
+        display: block ; 
+        align-items: center ;
+        justify-content: space-between ;
+    }
+
+    .closeWind1, .openWind1, 
+    .closeWind2, .openWind2, 
+    .closeWind3, .openWind3, 
+    .closeWind4, .openWind4, 
+    .closeWind5, .openWind5 {
+        width: 50px;
+        height: 50px;
+        margin: 5px 10px 5px 5px ;
+    }
+
+    .closeWind1, .openWind1, 
+    .closeWind2, .openWind2, 
+    .closeWind3, .openWind3, 
+    .closeWind4, .openWind4, 
+    .closeWind5, .openWind5 {
+        display: none;
+    }
+
+    .fotoUroda1 {
+        margin: 0 auto;
+        display: block ; 
+        height: 50vh;
+    }
+
+    .fotoUroda2 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    .fotoUroda3 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    .fotoUroda4 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    .fotoUroda5 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
+
+    hr {
+        margin: 0px 10px 0px 10px ;
+    }
+
+    /* Animation */
+
+    main:hover {
+        cursor: pointer;
+    }
+
+    /* main:hover  .headerH2color_1  {
+        color:green ;
+    } */
+
+    main:hover  .headerH2color_2  {
+        color:green ;
+    }
+
+    main:hover  .headerH2color_3  {
+        color:green ;
+    }
+
+    main:hover  .headerH2color_4  {
+        color:green ;
+    } 
+
+    main:hover  .headerH2color_5  {
+        color:green ;
+    }
+
+    main:hover .closeWind1  {
+        display: none;    
+    }
+
+    main:hover .closeWind2 {
+        display: none;    
+    }
+
+    main:hover .closeWind3  {
+        display: none;    
+    }
+
+    main:hover .closeWind4  {
+        display: block;    
+    }
+
+    main:hover .closeWind5  {
+        display: none;    
+    }
+
+    main:hover .openWind1  {
+        display: block;    
+    }
+
+    main:hover .openWind2  {
+        display: block;    
+    }
+
+    main:hover .openWind3  {
+        display: block;    
+    }
+
+    main:hover .openWind4  {
+        display: none;    
+    }
+
+    main:hover .openWind5 {
+        display: block;    
+    }
+
+    .section_1:hover .fotoUroda1 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_1:hover .openWind1 {
+        display: none;   
+    }
+
+    .section_1:hover .closeWind1 {
+        display: block;   
+    }
+
+    .section_2:hover .fotoUroda2 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_2:hover .openWind2 {
+        display: none;   
+    }
+
+    .section_2:hover .closeWind2 {
+        display: block;   
+    }
+
+    .section_3:hover .fotoUroda3 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_3:hover .openWind3 {
+        display: none;   
+    }
+
+    .section_3:hover .closeWind3 {
+        display: block;   
+    }
+
+    .section_4:hover .fotoUroda4 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_4:hover .openWind4 {
+        display: none;   
+    }
+
+    .section_4:hover .closeWind4 {
+        display: block;   
+    }
+
+    .section_5:hover .fotoUroda5 {
+        visibility: visible;
+        height: 50vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .section_5:hover .openWind5 {
+        display: none;   
+    }
+
+    .section_5:hover .closeWind5 {
+        display: block;   
+    }
+
+    .section_1:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_1:active .headerH2color_1 {
+        color:brown;
+    }
+
+    .section_2:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_2:active .headerH2color_2 {
+        color:brown;
+    }
+
+    .section_3:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_3:active .headerH2color_3 {
+        color:brown;
+    }
+
+    .section_4:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_4:active .headerH2color_4 {
+        color:brown;
+    }
+
+    .section_5:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_5:active .headerH2color_5 {
+        color:brown;
+    }
+
 }
 
-.headerH2color_1, 
-.headerH2color_2, 
-.headerH2color_3, 
-.headerH2color_4, 
-.headerH2color_5 {
-  font-size: 50px ;
-  color:brown ;
-  margin: 5px 5px 5px 10px ;
-  padding: 0;  
-}
+@media only screen and (min-width: 320px) and (max-width: 819.9px) {
 
-.headerH2color_1  {
-    color:green ;
-}
+    .container {
+        display: block;
+        margin: 0 auto;
+        max-width: 1440px;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        border: 1px blueviolet;
+        border-style: dotted;
+        border-radius: 20px;
+    }
 
-.headerH2_1, 
-.headerH2_2, 
-.headerH2_3, 
-.headerH2_4, 
-.headerH2_5 {
-    display: flex ; 
-    align-items: center ;
-    justify-content: space-between ;
-}
+    h1 {
+    font-size: 70px ;
+    margin: 5px 5px 5px 10px ;
+    }
 
-.section_1, 
-.section_2, 
-.section_3, 
-.section_4, 
-.section_5  {
-    display: block ; 
-    align-items: center ;
-    justify-content: space-between ;
-}
+    .headerH2color_1, 
+    .headerH2color_2, 
+    .headerH2color_3, 
+    .headerH2color_4, 
+    .headerH2color_5 {
+    font-size: 50px ;
+    color:brown ;
+    margin: 5px 5px 5px 10px ;
+    padding: 0;  
+    }
 
-.closeWind1, .openWind1, 
-.closeWind2, .openWind2, 
-.closeWind3, .openWind3, 
-.closeWind4, .openWind4, 
-.closeWind5, .openWind5 {
-    width: 50px;
-    height: 50px;
-    margin: 5px 10px 5px 5px ;
-}
+    .headerH2color_1  {
+        color:green ;
+    }
 
-.closeWind1, .openWind1, 
-.closeWind2, .openWind2, 
-.closeWind3, .openWind3, 
-.closeWind4, .openWind4, 
-.closeWind5, .openWind5 {
-    display: none;
-}
+    .headerH2_1, 
+    .headerH2_2, 
+    .headerH2_3, 
+    .headerH2_4, 
+    .headerH2_5 {
+        display: flex ; 
+        align-items: center ;
+        justify-content: space-between ;
+    }
 
-.fotoUroda1 {
-    margin: 0 auto;
-    display: block ; 
-    height: 50vh;
-}
+    .section_1, 
+    .section_2, 
+    .section_3, 
+    .section_4, 
+    .section_5  {
+        display: block ; 
+        align-items: center ;
+        justify-content: space-between ;
+    }
 
-.fotoUroda2 {
-    margin: 0 auto;
-    height: 0vh; 
-    visibility: hidden;
-    display: block;
-}
+    .closeWind1, .openWind1, 
+    .closeWind2, .openWind2, 
+    .closeWind3, .openWind3, 
+    .closeWind4, .openWind4, 
+    .closeWind5, .openWind5 {
+        width: 50px;
+        height: 50px;
+        margin: 5px 10px 5px 5px ;
+    }
 
-.fotoUroda3 {
-    margin: 0 auto;
-    height: 0vh; 
-    visibility: hidden;
-    display: block;
-}
+    .closeWind1, .openWind1, 
+    .closeWind2, .openWind2, 
+    .closeWind3, .openWind3, 
+    .closeWind4, .openWind4, 
+    .closeWind5, .openWind5 {
+        display: none;
+    }
 
-.fotoUroda4 {
-    margin: 0 auto;
-    height: 0vh; 
-    visibility: hidden;
-    display: block;
-}
+    .fotoUroda1 {
+        margin: 0 auto;
+        display: block ; 
+        height: 30vh;
 
-.fotoUroda5 {
-    margin: 0 auto;
-    height: 0vh; 
-    visibility: hidden;
-    display: block;
-}
+    }
 
-hr {
-    margin: 0px 10px 0px 10px ;
-}
+    .fotoUroda2 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
 
-/* Animation */
+    .fotoUroda3 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
 
-main:hover {
-    cursor: pointer;
-}
+    .fotoUroda4 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
 
-/* main:hover  .headerH2color_1  {
-    color:green ;
-} */
+    .fotoUroda5 {
+        margin: 0 auto;
+        height: 0vh; 
+        visibility: hidden;
+        display: block;
+    }
 
-main:hover  .headerH2color_2  {
-    color:green ;
-}
+    hr {
+        margin: 0px 10px 0px 10px ;
+    }
 
-main:hover  .headerH2color_3  {
-    color:green ;
-}
+    /* Animation */
 
-main:hover  .headerH2color_4  {
-    color:green ;
-} 
+    main:hover {
+        cursor: pointer;
+    }
 
-main:hover  .headerH2color_5  {
-    color:green ;
-}
+    /* main:hover  .headerH2color_1  {
+        color:green ;
+    } */
 
-main:hover .closeWind1  {
-    display: none;    
-}
+    main:hover  .headerH2color_2  {
+        color:green ;
+    }
 
-main:hover .closeWind2 {
-    display: none;    
-}
+    main:hover  .headerH2color_3  {
+        color:green ;
+    }
 
-main:hover .closeWind3  {
-    display: none;    
-}
+    main:hover  .headerH2color_4  {
+        color:green ;
+    } 
 
-main:hover .closeWind4  {
-    display: block;    
-}
+    main:hover  .headerH2color_5  {
+        color:green ;
+    }
 
-main:hover .closeWind5  {
-    display: none;    
-}
+    main:hover .closeWind1  {
+        display: none;    
+    }
 
-main:hover .openWind1  {
-    display: block;    
-}
+    main:hover .closeWind2 {
+        display: none;    
+    }
 
-main:hover .openWind2  {
-    display: block;    
-}
+    main:hover .closeWind3  {
+        display: none;    
+    }
 
-main:hover .openWind3  {
-    display: block;    
-}
+    main:hover .closeWind4  {
+        display: block;    
+    }
 
-main:hover .openWind4  {
-    display: none;    
-}
+    main:hover .closeWind5  {
+        display: none;    
+    }
 
-main:hover .openWind5 {
-    display: block;    
-}
+    main:hover .openWind1  {
+        display: block;    
+    }
 
-.section_1:hover .fotoUroda1 {
-    visibility: visible;
-    height: 50vh; 
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
+    main:hover .openWind2  {
+        display: block;    
+    }
 
-.section_1:hover .openWind1 {
-    display: none;   
-}
+    main:hover .openWind3  {
+        display: block;    
+    }
 
-.section_1:hover .closeWind1 {
-    display: block;   
-}
+    main:hover .openWind4  {
+        display: none;    
+    }
 
-.section_2:hover .fotoUroda2 {
-    visibility: visible;
-    height: 50vh; 
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
+    main:hover .openWind5 {
+        display: block;    
+    }
 
-.section_2:hover .openWind2 {
-    display: none;   
-}
+    .section_1:hover .fotoUroda1 {
+        visibility: visible;
+        height: 30vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
 
-.section_2:hover .closeWind2 {
-    display: block;   
-}
+    .section_1:hover .openWind1 {
+        display: none;   
+    }
 
-.section_3:hover .fotoUroda3 {
-    visibility: visible;
-    height: 50vh; 
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
+    .section_1:hover .closeWind1 {
+        display: block;   
+    }
 
-.section_3:hover .openWind3 {
-    display: none;   
-}
+    .section_2:hover .fotoUroda2 {
+        visibility: visible;
+        height: 30vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
 
-.section_3:hover .closeWind3 {
-    display: block;   
-}
+    .section_2:hover .openWind2 {
+        display: none;   
+    }
 
-.section_4:hover + .fotoUroda4 {
-    visibility: visible;
-    height: 50vh; 
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
+    .section_2:hover .closeWind2 {
+        display: block;   
+    }
 
-.section_4:hover .openWind4 {
-    display: none;   
-}
+    .section_3:hover .fotoUroda3 {
+        visibility: visible;
+        height: 30vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
 
-.section_4:hover .closeWind4 {
-    display: block;   
-}
+    .section_3:hover .openWind3 {
+        display: none;   
+    }
 
-.section_5:hover .fotoUroda5 {
-    visibility: visible;
-    height: 50vh; 
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
+    .section_3:hover .closeWind3 {
+        display: block;   
+    }
 
-.section_5:hover .openWind5 {
-    display: none;   
-}
+    .section_4:hover .fotoUroda4 {
+        visibility: visible;
+        height: 30vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
 
-.section_5:hover .closeWind5 {
-    display: block;   
-}
+    .section_4:hover .openWind4 {
+        display: none;   
+    }
 
-.section_1:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
+    .section_4:hover .closeWind4 {
+        display: block;   
+    }
 
-.section_1:active .headerH2color_1 {
-    color:brown;
-}
+    .section_5:hover .fotoUroda5 {
+        visibility: visible;
+        height: 30vh; 
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
 
-.section_2:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
+    .section_5:hover .openWind5 {
+        display: none;   
+    }
 
-.section_2:active .headerH2color_2 {
-    color:brown;
-}
+    .section_5:hover .closeWind5 {
+        display: block;   
+    }
 
-.section_3:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
+    .section_1:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
 
-.section_3:active .headerH2color_3 {
-    color:brown;
-}
+    .section_1:active .headerH2color_1 {
+        color:brown;
+    }
 
-.section_4:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
+    .section_2:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
 
-.section_4:active .headerH2color_4 {
-    color:brown;
-}
+    .section_2:active .headerH2color_2 {
+        color:brown;
+    }
 
-.section_5:active {
-    opacity: 0.5 ;
-    cursor: grabbing;
-}
+    .section_3:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
 
-.section_5:active .headerH2color_5 {
-    color:brown;
-}
+    .section_3:active .headerH2color_3 {
+        color:brown;
+    }
+
+    .section_4:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_4:active .headerH2color_4 {
+        color:brown;
+    }
+
+    .section_5:active {
+        opacity: 0.5 ;
+        cursor: grabbing;
+    }
+
+    .section_5:active .headerH2color_5 {
+        color:brown;
+    }
+
+}   
+
