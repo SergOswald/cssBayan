@@ -23,7 +23,7 @@ body {
     }
 
     h1 {
-    font-size: 70px ;
+    font-size: 4rem ;
     margin: 5px 5px 5px 10px ;
     }
 
@@ -145,7 +145,7 @@ body {
     }
 
     main:hover .closeWind1  {
-        display: none;    
+        display: block;   
     }
 
     main:hover .closeWind2 {
@@ -157,7 +157,7 @@ body {
     }
 
     main:hover .closeWind4  {
-        display: block;    
+        display: none;    
     }
 
     main:hover .closeWind5  {
@@ -165,7 +165,7 @@ body {
     }
 
     main:hover .openWind1  {
-        display: block;    
+        display: none;    
     }
 
     main:hover .openWind2  {
@@ -177,7 +177,7 @@ body {
     }
 
     main:hover .openWind4  {
-        display: none;    
+        display: block;    
     }
 
     main:hover .openWind5 {
@@ -326,7 +326,7 @@ body {
     .container {
         display: block;
         margin: 0 auto;
-        max-width: 1440px;
+        /* max-width: 1440px; */
         box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
         border: 1px blueviolet;
         border-style: dotted;
@@ -334,7 +334,7 @@ body {
     }
 
     h1 {
-    font-size: 55px ;
+    font-size: 3rem ;
     margin: 5px 5px 5px 10px ;
     }
 
@@ -456,7 +456,7 @@ body {
     }
 
     main:hover .closeWind1  {
-        display: none;    
+        display: block;    
     }
 
     main:hover .closeWind2 {
@@ -476,7 +476,7 @@ body {
     }
 
     main:hover .openWind1  {
-        display: block;    
+        display: none;    
     }
 
     main:hover .openWind2  {
@@ -645,7 +645,7 @@ body {
     }
 
     h1 {
-    font-size: 20px ;
+    font-size: 1.5rem ;
     margin: 5px 5px 5px 10px ;
     }
 
@@ -768,7 +768,7 @@ body {
     }
 
     main:hover .closeWind1  {
-        display: none;    
+        display: block;   
     }
 
     main:hover .closeWind2 {
@@ -788,7 +788,7 @@ body {
     }
 
     main:hover .openWind1  {
-        display: block;    
+        display: none;     
     }
 
     main:hover .openWind2  {
